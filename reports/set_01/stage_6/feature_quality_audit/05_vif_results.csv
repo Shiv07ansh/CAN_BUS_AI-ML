@@ -1,0 +1,11 @@
+feature,VIF,interpretation
+arbitration_id,1.178423046340735,Low multicollinearity
+payload_length,1.5913203063167651,Low multicollinearity
+byte_0,1.2484414712629928,Low multicollinearity
+byte_1,1.754570425672136,Low multicollinearity
+byte_2,1.3899586608399699,Low multicollinearity
+byte_3,1.5654532321441637,Low multicollinearity
+byte_4,2.0440196149133274,Low multicollinearity
+byte_5,1.3651747169654571,Low multicollinearity
+byte_6,1.5053990077829078,Low multicollinearity
+byte_7,1.9665272744750621,Low multicollinearity

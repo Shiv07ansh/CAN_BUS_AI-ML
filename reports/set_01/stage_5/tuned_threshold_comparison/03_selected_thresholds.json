@@ -1,0 +1,34 @@
+{
+    "validation_records": 50000,
+    "validation_attacks": 283,
+    "random_seed": 42,
+    "threshold_selection": "Maximum validation F1",
+    "official_test_partitions_used": false,
+    "models": {
+        "Random Forest Baseline": {
+            "score_type": "probability",
+            "default_threshold": 0.5,
+            "best_threshold": 0.5098428811773181,
+            "best_validation_f1": 0.8514851485148515
+        },
+        "Random Forest Tuned": {
+            "score_type": "probability",
+            "default_threshold": 0.5,
+            "best_threshold": 0.04666666666666667,
+            "best_validation_f1": 0.8864
+        },
+        "Logistic Regression Baseline": {
+            "score_type": "probability",
+            "default_threshold": 0.5,
+            "best_threshold": 0.9998948150089209,
+            "best_validation_f1": 0.7136363636363636
+        },
+        "Logistic Regression Tuned": {
+            "score_type": "probability",
+            "default_threshold": 0.5,
+            "best_threshold": 0.9999377853181471,
+            "best_validation_f1": 0.7120181405895691
+        }
+    },
+    "caution": "Thresholds were selected and evaluated on the same validation sample. Results are model-selection estimates, not independent final test estimates."
+}

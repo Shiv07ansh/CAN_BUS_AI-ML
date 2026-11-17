@@ -1,0 +1,21 @@
+model,feature,impurity_importance,importance_rank
+Random Forest Baseline,arbitration_id,0.3723791943749446,1
+Random Forest Baseline,byte_1,0.1412596594637013,2
+Random Forest Baseline,byte_3,0.12906470236397485,3
+Random Forest Baseline,byte_2,0.11825516566844019,4
+Random Forest Baseline,byte_5,0.07154266654597245,5
+Random Forest Baseline,byte_6,0.06056576432405609,6
+Random Forest Baseline,byte_0,0.037929279542397464,7
+Random Forest Baseline,payload_length,0.025704532954441896,8
+Random Forest Baseline,byte_7,0.02551435038716817,9
+Random Forest Baseline,byte_4,0.017784684374903048,10
+Random Forest Tuned,arbitration_id,0.5204510723313496,1
+Random Forest Tuned,byte_3,0.21090565057331062,2
+Random Forest Tuned,byte_1,0.16271280304289942,3
+Random Forest Tuned,byte_5,0.04620065860699172,4
+Random Forest Tuned,byte_6,0.024703557289412283,5
+Random Forest Tuned,byte_2,0.014417293920649653,6
+Random Forest Tuned,payload_length,0.011672422098987039,7
+Random Forest Tuned,byte_7,0.0052065201114832845,8
+Random Forest Tuned,byte_0,0.0024546817538461108,9
+Random Forest Tuned,byte_4,0.0012753402710703055,10

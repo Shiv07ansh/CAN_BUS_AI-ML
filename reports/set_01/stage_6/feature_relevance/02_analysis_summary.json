@@ -1,0 +1,35 @@
+{
+    "training_files": [
+        "accessory-2.csv",
+        "attack-free-1.csv",
+        "attack-free-2.csv",
+        "DoS-2.csv",
+        "force-neutral-2.csv",
+        "rpm-1.csv",
+        "standstill-1.csv"
+    ],
+    "sample_size": 100000,
+    "normal_records_in_sample": 99578,
+    "attack_records_in_sample": 422,
+    "attack_prevalence": 0.00422,
+    "random_seed": 42,
+    "methods": [
+        "ANOVA F-test",
+        "Mutual information"
+    ],
+    "mutual_information_features_treated_as": "Discrete",
+    "features_ranked": [
+        "arbitration_id",
+        "payload_length",
+        "byte_0",
+        "byte_1",
+        "byte_2",
+        "byte_3",
+        "byte_4",
+        "byte_5",
+        "byte_6",
+        "byte_7"
+    ],
+    "feature_removal_performed": false,
+    "interpretation": "These rankings are preliminary relevance measures. They do not establish causal importance or justify automatic feature removal."
+}

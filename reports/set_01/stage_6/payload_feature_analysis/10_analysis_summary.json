@@ -1,0 +1,124 @@
+{
+    "training_rows": 2265068,
+    "training_attack_rows": 9599,
+    "training_normal_rows": 2255469,
+    "attack_prevalence": 0.0042378418661161606,
+    "number_of_features": 18,
+    "original_features": [
+        "arbitration_id",
+        "payload_length",
+        "byte_0",
+        "byte_1",
+        "byte_2",
+        "byte_3",
+        "byte_4",
+        "byte_5",
+        "byte_6",
+        "byte_7"
+    ],
+    "engineered_features": [
+        "payload_zero_count",
+        "payload_nonzero_count",
+        "payload_byte_mean",
+        "payload_byte_std",
+        "payload_byte_entropy",
+        "payload_unique_byte_count",
+        "payload_bit_ones_count",
+        "payload_bit_density"
+    ],
+    "analysis_sample_size": 100000,
+    "random_state": 42,
+    "zero_variance_features": [],
+    "near_zero_variance_features": [],
+    "features_significant_after_fdr": [
+        "arbitration_id",
+        "payload_length",
+        "byte_0",
+        "byte_1",
+        "byte_2",
+        "byte_3",
+        "byte_4",
+        "byte_5",
+        "byte_6",
+        "byte_7",
+        "payload_zero_count",
+        "payload_nonzero_count",
+        "payload_byte_mean",
+        "payload_byte_std",
+        "payload_byte_entropy",
+        "payload_unique_byte_count",
+        "payload_bit_ones_count",
+        "payload_bit_density"
+    ],
+    "highly_correlated_pairs": [
+        {
+            "feature_1": "payload_byte_entropy",
+            "feature_2": "payload_unique_byte_count",
+            "pearson": 0.9712134497508021,
+            "spearman": 0.9911170588861035
+        },
+        {
+            "feature_1": "payload_bit_ones_count",
+            "feature_2": "payload_bit_density",
+            "pearson": 0.9764431230146642,
+            "spearman": 0.9737366751330442
+        },
+        {
+            "feature_1": "payload_byte_mean",
+            "feature_2": "payload_bit_density",
+            "pearson": 0.9384678784227748,
+            "spearman": 0.9243905876858086
+        },
+        {
+            "feature_1": "payload_byte_mean",
+            "feature_2": "payload_bit_ones_count",
+            "pearson": 0.9223099001697462,
+            "spearman": 0.9118566712070129
+        },
+        {
+            "feature_1": "payload_nonzero_count",
+            "feature_2": "payload_bit_ones_count",
+            "pearson": 0.8603575352322294,
+            "spearman": 0.9055817516577744
+        },
+        {
+            "feature_1": "payload_nonzero_count",
+            "feature_2": "payload_byte_entropy",
+            "pearson": 0.901877410414795,
+            "spearman": 0.8607633488378139
+        }
+    ],
+    "vif_above_5": [
+        "payload_length",
+        "byte_0",
+        "byte_1",
+        "byte_2",
+        "byte_3",
+        "byte_4",
+        "byte_5",
+        "byte_6",
+        "byte_7",
+        "payload_zero_count",
+        "payload_nonzero_count",
+        "payload_byte_mean",
+        "payload_byte_std",
+        "payload_byte_entropy",
+        "payload_unique_byte_count",
+        "payload_bit_ones_count",
+        "payload_bit_density"
+    ],
+    "top_features_by_combined_rank": [
+        "payload_zero_count",
+        "payload_byte_entropy",
+        "payload_byte_std",
+        "payload_bit_density",
+        "payload_byte_mean",
+        "payload_nonzero_count",
+        "payload_unique_byte_count",
+        "payload_bit_ones_count",
+        "arbitration_id",
+        "byte_1"
+    ],
+    "validation_data_used": false,
+    "feature_removal_performed": false
+}

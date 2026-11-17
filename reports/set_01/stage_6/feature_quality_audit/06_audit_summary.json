@@ -1,0 +1,32 @@
+{
+    "training_files": [
+        "accessory-2.csv",
+        "attack-free-1.csv",
+        "attack-free-2.csv",
+        "DoS-2.csv",
+        "force-neutral-2.csv",
+        "rpm-1.csv",
+        "standstill-1.csv"
+    ],
+    "training_records_inspected": 2265068,
+    "training_attack_records": 9599,
+    "training_attack_prevalence": 0.0042378418661161606,
+    "analysis_sample_size": 100000,
+    "features": [
+        "arbitration_id",
+        "payload_length",
+        "byte_0",
+        "byte_1",
+        "byte_2",
+        "byte_3",
+        "byte_4",
+        "byte_5",
+        "byte_6",
+        "byte_7"
+    ],
+    "zero_variance_features": [],
+    "near_zero_variance_features": [],
+    "high_vif_features": [],
+    "random_seed": 42,
+    "note": "No features were automatically removed. VIF and correlations are diagnostic evidence, not automatic deletion criteria."
+}

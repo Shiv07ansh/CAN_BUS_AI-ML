@@ -1,0 +1,86 @@
+{
+    "experiment": "Controlled Random Forest feature-subset comparison",
+    "random_state": 42,
+    "validation_sample_size": 50000,
+    "training_rows": 2265068,
+    "training_attacks": 9599,
+    "validation_sample_rows": 50000,
+    "validation_sample_attacks": 283,
+    "rf_parameters": {
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 10,
+        "max_features": "sqrt",
+        "class_weight": "balanced_subsample",
+        "random_state": 42,
+        "n_jobs": -1
+    },
+    "feature_sets": {
+        "F0_original_10": [
+            "arbitration_id",
+            "payload_length",
+            "byte_0",
+            "byte_1",
+            "byte_2",
+            "byte_3",
+            "byte_4",
+            "byte_5",
+            "byte_6",
+            "byte_7"
+        ],
+        "F1_identifier_only": [
+            "arbitration_id"
+        ],
+        "F2_statistical_shortlist": [
+            "arbitration_id",
+            "byte_1",
+            "byte_2",
+            "byte_3",
+            "byte_6"
+        ],
+        "F3_tuned_rf_shortlist": [
+            "arbitration_id",
+            "byte_0",
+            "byte_4",
+            "byte_5",
+            "byte_6"
+        ],
+        "F4_payload_only": [
+            "payload_length",
+            "byte_0",
+            "byte_1",
+            "byte_2",
+            "byte_3",
+            "byte_4",
+            "byte_5",
+            "byte_6",
+            "byte_7"
+        ],
+        "F5_combined_shortlist": [
+            "arbitration_id",
+            "byte_0",
+            "byte_1",
+            "byte_3",
+            "byte_4",
+            "byte_5",
+            "byte_6"
+        ]
+    },
+    "training_files": [
+        "accessory-2.csv",
+        "attack-free-1.csv",
+        "attack-free-2.csv",
+        "DoS-2.csv",
+        "force-neutral-2.csv",
+        "rpm-1.csv",
+        "standstill-1.csv"
+    ],
+    "validation_files": [
+        "accessory-1.csv",
+        "DoS-1.csv",
+        "force-neutral-1.csv",
+        "rpm-2.csv",
+        "standstill-2.csv"
+    ],
+    "threshold_note": "Optimised thresholds are exploratory. They were selected and evaluated on the same fixed validation sample."
+}

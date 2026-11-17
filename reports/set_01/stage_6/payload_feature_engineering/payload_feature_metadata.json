@@ -1,0 +1,102 @@
+{
+    "input_directory": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\prepared\\set_01\\train_01",
+    "output_directory": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01",
+    "files_processed": [
+        {
+            "file": "accessory-1.csv",
+            "rows": 62311,
+            "attack_rows": 0,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\accessory-1.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "accessory-2.csv",
+            "rows": 67850,
+            "attack_rows": 0,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\accessory-2.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "attack-free-1.csv",
+            "rows": 585850,
+            "attack_rows": 0,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\attack-free-1.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "attack-free-2.csv",
+            "rows": 379680,
+            "attack_rows": 0,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\attack-free-2.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "DoS-1.csv",
+            "rows": 27051,
+            "attack_rows": 2742,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\DoS-1.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "DoS-2.csv",
+            "rows": 93313,
+            "attack_rows": 7786,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\DoS-2.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "force-neutral-1.csv",
+            "rows": 214630,
+            "attack_rows": 1950,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\force-neutral-1.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "force-neutral-2.csv",
+            "rows": 299546,
+            "attack_rows": 148,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\force-neutral-2.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "rpm-1.csv",
+            "rows": 252315,
+            "attack_rows": 1001,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\rpm-1.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "rpm-2.csv",
+            "rows": 246738,
+            "attack_rows": 112,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\rpm-2.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "standstill-1.csv",
+            "rows": 586514,
+            "attack_rows": 664,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\standstill-1.csv",
+            "validation": "passed"
+        },
+        {
+            "file": "standstill-2.csv",
+            "rows": 380144,
+            "attack_rows": 464,
+            "output": "D:\\Software\\GitHub Desktop\\CAN_BUS_AI\\data\\engineered\\set_01\\train_01\\standstill-2.csv",
+            "validation": "passed"
+        }
+    ],
+    "total_rows": 3195942,
+    "engineered_features": [
+        "payload_zero_count",
+        "payload_nonzero_count",
+        "payload_byte_mean",
+        "payload_byte_std",
+        "payload_byte_entropy",
+        "payload_unique_byte_count",
+        "payload_bit_ones_count",
+        "payload_bit_density"
+    ],
+    "validation": "passed"
+}

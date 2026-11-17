@@ -1,0 +1,8 @@
+configuration,best_f1_threshold,best_f1,best_precision,best_recall,best_fpr,best_tp,best_fp,best_tn,best_fn,threshold_selection_note
+E4_original_plus_compact_15,0.06,0.8864,0.8099415204678363,0.9787985865724381,0.0013073998833397027,277,65,49652,6,Exploratory: selected and evaluated on the same validation sample
+E5_original_plus_all_engineered_18,0.08,0.8864,0.8099415204678363,0.9787985865724381,0.0013073998833397027,277,65,49652,6,Exploratory: selected and evaluated on the same validation sample
+B1_binary_id_plus_original_payload_20,0.11993140485162349,0.8864,0.8099415204678363,0.9787985865724381,0.0013073998833397027,277,65,49652,6,Exploratory: selected and evaluated on the same validation sample
+E1_original_10,0.5098428811773181,0.8514851485148515,0.7987616099071208,0.911660777385159,0.0013073998833397027,258,65,49652,25,Exploratory: selected and evaluated on the same validation sample
+B2_binary_id_plus_all_payload_features_28,0.23997192023168076,0.8514851485148515,0.7987616099071208,0.911660777385159,0.0013073998833397027,258,65,49652,25,Exploratory: selected and evaluated on the same validation sample
+E2_engineered_8,0.9898739673767133,0.3149448345035105,0.21988795518207283,0.5547703180212014,0.011203411308003298,157,557,49160,126,Exploratory: selected and evaluated on the same validation sample
+E3_compact_engineered_5,0.9898739673767196,0.3149448345035105,0.21988795518207283,0.5547703180212014,0.011203411308003298,157,557,49160,126,Exploratory: selected and evaluated on the same validation sample

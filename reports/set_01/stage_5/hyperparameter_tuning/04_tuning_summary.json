@@ -1,0 +1,28 @@
+{
+    "training_records": 2265068,
+    "search_records": 200000,
+    "validation_records": 50000,
+    "validation_attacks": 283,
+    "random_seed": 42,
+    "cv_folds": 3,
+    "search_iterations": 6,
+    "scoring_metric": "average_precision",
+    "official_test_partitions_used": false,
+    "models": {
+        "Random Forest": {
+            "best_params": {
+                "n_estimators": 150,
+                "min_samples_leaf": 10,
+                "max_features": 0.7,
+                "max_depth": null
+            },
+            "best_cv_pr_auc": 0.9853703533108428
+        },
+        "Logistic Regression": {
+            "best_params": {
+                "model__C": 10
+            },
+            "best_cv_pr_auc": 0.9726464749771445
+        }
+    }
+}

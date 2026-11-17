@@ -1,0 +1,8 @@
+recording,attack_family,total_rows,attack_rows,normal_rows,attack_prevalence
+DoS-2.csv,dos,93313,7786,85527,0.08343960648569868
+accessory-2.csv,accessory,67850,0,67850,0.0
+attack-free-1.csv,normal_recording,585850,0,585850,0.0
+attack-free-2.csv,normal_recording,379680,0,379680,0.0
+force-neutral-2.csv,force_neutral,299546,148,299398,0.0004940810426445354
+rpm-1.csv,rpm,252315,1001,251314,0.003967263143293106
+standstill-1.csv,standstill,586514,664,585850,0.0011321127884415375

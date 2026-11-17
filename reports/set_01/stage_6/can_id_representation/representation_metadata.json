@@ -1,0 +1,131 @@
+{
+    "experiment": "CAN arbitration ID representation validation",
+    "random_state": 42,
+    "training_rows": 2265068,
+    "validation_rows": 930874,
+    "training_files": [
+        "accessory-2.csv",
+        "attack-free-1.csv",
+        "attack-free-2.csv",
+        "DoS-2.csv",
+        "force-neutral-2.csv",
+        "rpm-1.csv",
+        "standstill-1.csv"
+    ],
+    "validation_files": [
+        "accessory-1.csv",
+        "DoS-1.csv",
+        "force-neutral-1.csv",
+        "rpm-2.csv",
+        "standstill-2.csv"
+    ],
+    "representations": {
+        "integer": {
+            "description": "Original numeric arbitration ID",
+            "feature_count": 1
+        },
+        "binary": {
+            "description": "11-bit binary representation, MSB first",
+            "feature_count": 11,
+            "columns": [
+                "id_bit_10",
+                "id_bit_9",
+                "id_bit_8",
+                "id_bit_7",
+                "id_bit_6",
+                "id_bit_5",
+                "id_bit_4",
+                "id_bit_3",
+                "id_bit_2",
+                "id_bit_1",
+                "id_bit_0"
+            ]
+        },
+        "categorical": {
+            "description": "One-hot encoding using training IDs only",
+            "feature_count": 51,
+            "categories": [
+                193,
+                197,
+                201,
+                241,
+                249,
+                288,
+                298,
+                308,
+                312,
+                381,
+                383,
+                388,
+                401,
+                409,
+                413,
+                417,
+                451,
+                455,
+                461,
+                481,
+                485,
+                489,
+                497,
+                499,
+                501,
+                707,
+                761,
+                820,
+                840,
+                842,
+                961,
+                969,
+                977,
+                1001,
+                1005,
+                1009,
+                1017,
+                1019,
+                1217,
+                1225,
+                1233,
+                1249,
+                1257,
+                1265,
+                1280,
+                1300,
+                1322,
+                1905,
+                1906,
+                1907,
+                1919
+            ],
+            "unseen_validation_ids": [
+                0
+            ]
+        }
+    },
+    "payload_features_retained": [
+        "payload_length",
+        "byte_0",
+        "byte_1",
+        "byte_2",
+        "byte_3",
+        "byte_4",
+        "byte_5",
+        "byte_6",
+        "byte_7"
+    ],
+    "target": "attack",
+    "validation": {
+        "training_unique_ids": 51,
+        "validation_unique_ids": 52,
+        "training_category_count": 51,
+        "unseen_validation_rows": 2742,
+        "unseen_validation_unique_ids": 1
+    },
+    "feature_dimensions": {
+        "integer": 1,
+        "binary": 11,
+        "categorical": 51,
+        "payload": 9
+    },
+    "note": "No model training was performed. Categorical vocabulary was fitted only on training data."
+}

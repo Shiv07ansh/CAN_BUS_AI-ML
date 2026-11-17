@@ -1,0 +1,37 @@
+{
+    "purpose": "Validation-only threshold analysis; baseline models are not retrained or modified.",
+    "random_seed": 42,
+    "validation_records": 50000,
+    "validation_attacks": 283,
+    "validation_attack_prevalence": 0.00566,
+    "selection_rule": "Threshold maximizing F1 on the fixed validation sample.",
+    "official_test_partitions_used": false,
+    "baseline_models_modified": false,
+    "models": {
+        "Random Forest": {
+            "score_type": "probability",
+            "baseline_threshold": 0.5,
+            "best_f1_threshold": 0.5098428811773181,
+            "best_f1": 0.8514851485148515
+        },
+        "Logistic Regression": {
+            "score_type": "probability",
+            "baseline_threshold": 0.5,
+            "best_f1_threshold": 0.9998948150089209,
+            "best_f1": 0.7136363636363636
+        },
+        "Linear SVM": {
+            "score_type": "decision_function",
+            "baseline_threshold": 0.0,
+            "best_f1_threshold": 1.8219863973122727,
+            "best_f1": 0.6487603305785123
+        },
+        "Gaussian Naive Bayes": {
+            "score_type": "probability",
+            "baseline_threshold": 0.5,
+            "best_f1_threshold": 0.9999999999999929,
+            "best_f1": 0.33547008547008544
+        }
+    },
+    "caution": "The maximum validation F1 is used for threshold selection, not as an unbiased final performance estimate. Freeze thresholds before evaluating the official test partitions."
+}
