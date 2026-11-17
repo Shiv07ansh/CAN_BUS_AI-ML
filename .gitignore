@@ -1,0 +1,92 @@
+# ============================================================
+# RAW DATASET
+# Keep Dataset/README.md tracked; exclude the actual benchmark.
+# ============================================================
+Dataset/*
+!Dataset/README.md
+dataset/
+
+# ============================================================
+# GENERATED / DERIVED DATA
+# Keep data/README.md if one is added later.
+# ============================================================
+data/*
+!data/README.md
+
+# ============================================================
+# TRAINED MODEL ARTIFACTS
+# (Source code under src/models/ is NOT ignored.)
+# ============================================================
+models/
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.onnx
+*.pt
+*.pth
+*.h5
+*.keras
+*.safetensors
+
+# ============================================================
+# PRELIMINARY ARCHIVE
+# ============================================================
+archive_preliminary/
+
+# ============================================================
+# LARGE GENERATED TEMPORAL WINDOW DETAIL
+# Keep compact summaries and other report outputs.
+# ============================================================
+reports/**/03_one_second_message_windows.csv
+
+# Common bulky generated data formats
+reports/**/*.parquet
+reports/**/*.feather
+
+# ============================================================
+# PYTHON / ENVIRONMENTS
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# ============================================================
+# JUPYTER
+# ============================================================
+.ipynb_checkpoints/
+
+# ============================================================
+# EDITORS / OPERATING SYSTEM
+# ============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# LOGS / TEMPORARY FILES
+# ============================================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ============================================================
+# SECRETS / LOCAL ENVIRONMENT
+# ============================================================
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
