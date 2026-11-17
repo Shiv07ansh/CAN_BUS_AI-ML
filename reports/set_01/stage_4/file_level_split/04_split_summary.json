@@ -1,0 +1,60 @@
+{
+    "random_seed": 42,
+    "target_validation_fraction": 0.2,
+    "actual_validation_fraction": 0.2912674885839605,
+    "selection_score": 0.10973373268177143,
+    "selection_method": "Exhaustive file-level search over all possible assignments, subject to class and attack-family representation constraints.",
+    "training": {
+        "files": 7,
+        "records": 2265068,
+        "normal": 2255469,
+        "attack": 9599,
+        "attack_percentage": 0.4237841866116161,
+        "families_present": [
+            "dos",
+            "force-neutral",
+            "rpm",
+            "standstill"
+        ]
+    },
+    "validation": {
+        "files": 5,
+        "records": 930874,
+        "normal": 925606,
+        "attack": 5268,
+        "attack_percentage": 0.565919770022581,
+        "families_present": [
+            "dos",
+            "force-neutral",
+            "rpm",
+            "standstill"
+        ]
+    },
+    "attack_family_file_coverage": {
+        "dos": {
+            "training": 1,
+            "validation": 1
+        },
+        "force-neutral": {
+            "training": 1,
+            "validation": 1
+        },
+        "rpm": {
+            "training": 1,
+            "validation": 1
+        },
+        "standstill": {
+            "training": 1,
+            "validation": 1
+        }
+    },
+    "checks": {
+        "no_file_overlap": true,
+        "training_has_both_classes": true,
+        "validation_has_both_classes": true,
+        "all_attack_families_in_training": true,
+        "all_attack_families_in_validation": true
+    },
+    "overall_status": "PASS",
+    "important_note": "Attack families are identified from source recording filenames for split design only. Filenames and family identifiers are not model input features. The split is a validation allocation within train_01; the four official test partitions remain untouched."
+}

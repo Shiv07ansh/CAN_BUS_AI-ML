@@ -1,0 +1,4 @@
+block_size,total_blocks,blocks_containing_attacks,blocks_without_attacks,percentage_blocks_containing_attacks,total_attack_records,attack_coverage_top_30pct_blocks
+5000,8960,544,8416,6.071428571428571,312073,100.0
+10000,4492,300,4192,6.678539626001781,312073,100.0
+20000,2262,172,2090,7.603890362511052,312073,100.0

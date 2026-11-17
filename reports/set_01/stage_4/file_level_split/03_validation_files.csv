@@ -1,0 +1,6 @@
+file,relative_path,records,normal,attack,attack_percentage,family,group
+accessory-1.csv,accessory-1.csv,62311,62311,0,0.0,normal_only,validation
+DoS-1.csv,DoS-1.csv,27051,24309,2742,10.136409005212377,dos,validation
+force-neutral-1.csv,force-neutral-1.csv,214630,212680,1950,0.9085402786190188,force-neutral,validation
+rpm-2.csv,rpm-2.csv,246738,246626,112,0.04539227844920523,rpm,validation
+standstill-2.csv,standstill-2.csv,380144,379680,464,0.12205900921755966,standstill,validation

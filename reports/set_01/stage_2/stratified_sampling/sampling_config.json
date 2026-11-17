@@ -1,0 +1,11 @@
+{
+    "dataset": "can-train-and-test Set 01",
+    "sampling_method": "Independent simple random sampling without replacement within each class and original CSV file.",
+    "sample_fraction": 0.3,
+    "random_seed": 42,
+    "chunk_size": 200000,
+    "class_column": "attack",
+    "source_row_order": "Preserved",
+    "original_files_modified": false,
+    "output_directory": "data\\sampled_stratified\\set_01"
+}

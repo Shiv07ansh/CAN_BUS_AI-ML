@@ -1,0 +1,17 @@
+{
+    "files_checked": 52,
+    "files_passed": 52,
+    "files_failed": 0,
+    "overall_status": "PASS",
+    "validation_scope": [
+        "CSV schema",
+        "sampled row counts",
+        "normal and attack counts",
+        "binary label validity",
+        "arbitration ID validity",
+        "payload validity",
+        "arbitration ID distribution",
+        "payload length distribution"
+    ],
+    "important_limitation": "This script does not independently prove that sampled rows form an ordered subsequence of the original files. Source-order preservation is recorded in the sampler configuration and should be verified separately if required."
+}

@@ -1,0 +1,8 @@
+file,relative_path,records,normal,attack,attack_percentage,family,group
+accessory-2.csv,accessory-2.csv,67850,67850,0,0.0,normal_only,training
+attack-free-1.csv,attack-free-1.csv,585850,585850,0,0.0,normal_only,training
+attack-free-2.csv,attack-free-2.csv,379680,379680,0,0.0,normal_only,training
+DoS-2.csv,DoS-2.csv,93313,85527,7786,8.343960648569867,dos,training
+force-neutral-2.csv,force-neutral-2.csv,299546,299398,148,0.04940810426445354,force-neutral,training
+rpm-1.csv,rpm-1.csv,252315,251314,1001,0.3967263143293106,rpm,training
+standstill-1.csv,standstill-1.csv,586514,585850,664,0.11321127884415376,standstill,training

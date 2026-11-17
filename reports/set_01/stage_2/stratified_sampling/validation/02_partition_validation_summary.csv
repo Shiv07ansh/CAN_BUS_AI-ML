@@ -1,0 +1,6 @@
+partition,files,passed,failed,original_rows,sampled_rows
+test_01_known_vehicle_known_attack,8,8,0,5702670,1710804
+test_02_unknown_vehicle_known_attack,8,8,0,6447917,1934377
+test_03_known_vehicle_unknown_attack,12,12,0,8635275,2590585
+test_04_unknown_vehicle_unknown_attack,12,12,0,13220555,3966168
+train_01,12,12,0,10653140,3195942

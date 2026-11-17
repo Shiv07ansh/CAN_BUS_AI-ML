@@ -1,0 +1,6 @@
+partition,files,records,invalid_labels,invalid_timestamps,nonfinite_timestamps,invalid_ids,invalid_payloads,duplicate_rows,boundary_duplicates,conflicting_label_groups
+test_01_known_vehicle_known_attack,8,5702670,0,0,0,0,0,0,0,0
+test_02_unknown_vehicle_known_attack,8,6447917,0,0,0,0,0,0,0,0
+test_03_known_vehicle_unknown_attack,12,8635275,0,0,0,0,0,0,0,0
+test_04_unknown_vehicle_unknown_attack,12,13220555,0,0,0,0,0,0,0,0
+train_01,12,10653140,0,0,0,0,0,0,0,0

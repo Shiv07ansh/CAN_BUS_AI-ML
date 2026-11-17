@@ -1,0 +1,22 @@
+{
+    "training_files": 12,
+    "total_records": 3195942,
+    "total_attacks": 14867,
+    "attack_containing_files": 8,
+    "zero_attack_files": 4,
+    "files_with_zero_attacks_in_chronological_validation": 12,
+    "files_with_zero_attacks_in_chronological_training": 4,
+    "chronological_train": {
+        "records": 2556750,
+        "attacks": 14867,
+        "attack_percentage": 0.5814803950327564
+    },
+    "chronological_validation": {
+        "records": 639192,
+        "attacks": 0,
+        "attack_percentage": 0.0
+    },
+    "temporal_bins_per_file": 5,
+    "chronological_split_fraction": 0.8,
+    "note": "Chronological split is applied independently within each file, preserving file order. Timestamp decreases are reported rather than automatically corrected."
+}

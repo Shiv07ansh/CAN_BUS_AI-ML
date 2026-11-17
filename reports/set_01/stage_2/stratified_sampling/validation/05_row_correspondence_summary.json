@@ -1,0 +1,11 @@
+{
+    "files_checked": 52,
+    "files_passed": 52,
+    "files_failed": 0,
+    "overall_status": "PASS",
+    "verification_method": "Streaming sequential record matching. Every sampled CSV record must match a record in its original CSV at or after the previous match.",
+    "limitations": [
+        "Identical duplicate records may match an earlier indistinguishable occurrence.",
+        "This verifies ordered subsequence correspondence, not the exact original row indices selected."
+    ]
+}

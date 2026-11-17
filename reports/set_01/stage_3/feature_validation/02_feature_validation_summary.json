@@ -1,0 +1,20 @@
+{
+    "files_checked": 52,
+    "files_passed": 52,
+    "files_failed": 0,
+    "source_records": 13397876,
+    "prepared_records": 13397876,
+    "normal_records": 13304248,
+    "attack_records": 93628,
+    "overall_status": "PASS",
+    "checks": [
+        "schema",
+        "numeric",
+        "binary_labels",
+        "payload_length_range",
+        "byte_range",
+        "sentinel_consistency",
+        "no_missing_values",
+        "exact_transformation"
+    ]
+}

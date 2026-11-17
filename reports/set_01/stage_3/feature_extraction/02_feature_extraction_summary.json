@@ -1,0 +1,22 @@
+{
+    "files_processed": 52,
+    "total_rows": 13397876,
+    "normal_records": 13304248,
+    "attack_records": 93628,
+    "feature_count": 10,
+    "target_column": "attack",
+    "output_columns": [
+        "arbitration_id",
+        "payload_length",
+        "byte_0",
+        "byte_1",
+        "byte_2",
+        "byte_3",
+        "byte_4",
+        "byte_5",
+        "byte_6",
+        "byte_7",
+        "attack"
+    ],
+    "overall_status": "PASS"
+}
